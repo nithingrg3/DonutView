@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  CreditScore
+
+ //  Created by Nitin George on 02/03/2021.
+  
+*/
+
+"appName"                    = "Dashboard";
+"NoCreditScoreErrorMessage"  = "Sorry, we haven’t found any Credit Score, please try later";
+"CreditScoreDetailTitle"     = "Detail";
