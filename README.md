@@ -14,18 +14,13 @@ Code and document for creating a Donut view based on your score
     
 ## DonutView Example
 
-    The example shows how to create a Donut UI based on a `DonutView` swift class.
+    The example shows how to create a Donut UI using `DonutView` swift class.
 
-    ```swift
     var donutView = DonutView(frame: CGRect, myScore: Int?, totalScore: Int?, countingStartScore: Int?, radius: CGFloat)
     donutView.tag = 1
     
-    ```
-
-    ```swift
     //Delegate
     func donutViewScoreTouched(donutViewID: Int)
-    ```
     
 ## Contributor
 - Nithin George <nithingeorge3@gmail.com>
