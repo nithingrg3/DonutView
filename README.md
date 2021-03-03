@@ -10,7 +10,7 @@ Code and document for creating a Donut view based on your score
     
     
 # Demo
-![alt-text](https://github.com/nithingeorge3/test/blob/main/donut.gif)
+![alt-text](https://github.com/nithingrg3/DonutView/blob/main/donut.gif)
     
 ## DonutView Example
 
