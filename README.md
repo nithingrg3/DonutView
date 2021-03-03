@@ -1,6 +1,5 @@
 # DonutView
 ![Xcode](https://img.shields.io/badge/Xcode-12.0-blue.svg) ![Swift 5.0](https://img.shields.io/badge/Swift-5.0-orange.svg) ![min iOS](https://img.shields.io/badge/min%20iOS-13.0-lightgrey.svg) ![macOS 10.15+](https://img.shields.io/badge/macOS-10.15-orange.svg) ![V](https://img.shields.io/badge/V-1.0-blue.svg)
-**Version 1.0**
 
 Code and document for creating a Donut view based on your score
  -  Drwaing the DonutView using  CAShapeLayer and UIBezierPath
@@ -34,11 +33,6 @@ If you are ready to play with the project just open `CreditScore.xcodeproj`. :ro
     - [Swift Package Manager](#swift-package-manager)
 - [Architecture](#Architecture)
 - [Target](#Target)
-    
-## Requirements
-* iOS 13.0+
-* macOS 10.15+
-* Swift 5+
 
 ## Installation
 
