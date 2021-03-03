@@ -30,14 +30,6 @@ class DonutView: UIView {
         }
     }
     
-    private let myScoreColor = UIColor(red: 242/255.0, green: 223/255.0, blue: 136/255.0, alpha: 1.0)
-    
-    var trackColor = UIColor.white {
-        didSet {
-            trackLayer.strokeColor = trackColor.cgColor
-        }
-    }
-    
     override func awakeFromNib() {
         super.awakeFromNib()
     }

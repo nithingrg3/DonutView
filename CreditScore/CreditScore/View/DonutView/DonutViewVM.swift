@@ -24,21 +24,7 @@ class DonutViewVM: DonutVMProtocol {
     private var myScore:Int?
     private var totalScore:Int?
     private var countingStartScore:Int?
-
-    
-//    fileprivate var progressColor = UIColor(red: 238/255.0, green: 209/255.0, blue: 123/255.0, alpha: 1.0)  {
-//        didSet {
-//            progressLayer.strokeColor = progressColor.cgColor
-//        }
-//    }
-    
-    fileprivate let myScoreColor = UIColor(red: 242/255.0, green: 223/255.0, blue: 136/255.0, alpha: 1.0)
-    
-//    fileprivate var trackColor = UIColor.white {
-//        didSet {
-//            trackLayer.strokeColor = trackColor.cgColor
-//        }
-//    }
+    private let myScoreColor = UIColor(red: 242/255.0, green: 223/255.0, blue: 136/255.0, alpha: 1.0)
     
     required init(myScore: Int?, totalScore: Int?, countingStartScore: Int?, radius: CGFloat) {
         self.myScore = myScore
