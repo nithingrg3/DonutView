@@ -61,6 +61,10 @@
 		28602DA925E9CF1B008F089D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2848937B25E410BD00DB7426 /* LaunchScreen.storyboard */; };
 		28602DF225E9CF57008F089D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2848937925E410BD00DB7426 /* Assets.xcassets */; };
 		28602E0325E9CFAA008F089D /* CreditScoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28602E0225E9CFAA008F089D /* CreditScoreUITests.swift */; };
+		287B46AC25EF8F150055B55E /* CreditScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2848942A25E4192300DB7426 /* CreditScore.swift */; };
+		287B46B025EF8F1D0055B55E /* DonutViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284894C125E457C800DB7426 /* DonutViewVM.swift */; };
+		287B46B425EF8F250055B55E /* DonutVMProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2848944725E4224200DB7426 /* DonutVMProtocol.swift */; };
+		287B46B825EF8F2D0055B55E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284893CE25E4125E00DB7426 /* Constants.swift */; };
 		287ED9F125ED9824007ABCFF /* DonutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287ED9EF25ED9824007ABCFF /* DonutView.swift */; };
 		287ED9F225ED9824007ABCFF /* DonutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287ED9EF25ED9824007ABCFF /* DonutView.swift */; };
 		287ED9F325ED9824007ABCFF /* DonutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287ED9EF25ED9824007ABCFF /* DonutView.swift */; };
@@ -635,10 +639,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				287B46B425EF8F250055B55E /* DonutVMProtocol.swift in Sources */,
 				28FBD07C25ED712E00649A5F /* AppDelegate.swift in Sources */,
 				28602E0325E9CFAA008F089D /* CreditScoreUITests.swift in Sources */,
+				287B46AC25EF8F150055B55E /* CreditScore.swift in Sources */,
 				287ED9F325ED9824007ABCFF /* DonutView.swift in Sources */,
+				287B46B025EF8F1D0055B55E /* DonutViewVM.swift in Sources */,
 				28AD401B25EEF4BC0074AEA1 /* DetailCreditScoreVC.swift in Sources */,
+				287B46B825EF8F2D0055B55E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
