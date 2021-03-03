@@ -3,12 +3,15 @@
 
 Code and document for creating a Donut view based on your score
  -  Drwaing the DonutView using  CAShapeLayer and UIBezierPath
- 
-    <p align="center">
-      <img src="./home.png" width="200" alt="VGS Show iOS SDK Aliases" hspace="10">
-    </p>
     
-    
+## Getting Started
+If you are ready to play with the project just open `CreditScore.xcodeproj`. :rocket:
+
+
+<p align="center">
+  <img src="./home.png" width="200" alt="VGS Show iOS SDK Aliases" hspace="10">
+</p>
+
 # Demo
 ![alt-text](https://github.com/nithingrg3/DonutView/blob/main/donut.gif)
     
