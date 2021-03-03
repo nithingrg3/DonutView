@@ -48,12 +48,12 @@ class DonutView: UIView {
         addTapGesture()
         initializeSubviews()
         startCountMyScore()
-        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(Int(0.4)), execute: { [weak self] in
-            self?.updateViewConstraints()
-            self?.outerCircleLayer()
-            self?.createProgressCirclePath()
-            let percetage = self?.viewModel.myScorePercentage() ?? 0.0
-            self?.setProgressWithAnimation(duration: 1.5, value: Float(percetage))
+        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(Int(0.4)), execute: { 
+            self.updateViewConstraints()
+            self.outerCircleLayer()
+            self.createProgressCirclePath()
+            let percetage = self.viewModel.myScorePercentage() ?? 0.0
+            self.setProgressWithAnimation(duration: 1.5, value: Float(percetage))
         })
     }
     
